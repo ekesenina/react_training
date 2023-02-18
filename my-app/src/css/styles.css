@@ -1,0 +1,366 @@
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/LEngineer-Regular.otf);
+}
+
+/* line 3, ../../Projects/react_training/my-app/src/sass/task1.sass */
+#task1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'main';
+  font-size: 48px;
+  color: #d4a373;
+  background-color: #faedcd;
+}
+
+/* line 10, ../../Projects/react_training/my-app/src/sass/task1.sass */
+.button {
+  border-style: dashed;
+  border-color: #876e55;
+  font-family: "main";
+  font-size: 30px;
+  background-color: #faedcd00;
+  color: #d4a373;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+/* line 22, ../../Projects/react_training/my-app/src/sass/task1.sass */
+.it_is_me {
+  padding: 10px;
+}
+
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/LEngineer-Regular.otf);
+}
+
+/* line 4, ../../Projects/react_training/my-app/src/sass/task2.sass */
+#task2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #a3b18a;
+  color: #6c584c;
+  font-family: "main";
+}
+
+/* line 9, ../../Projects/react_training/my-app/src/sass/task2.sass */
+#task2 h2 {
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+/* line 12, ../../Projects/react_training/my-app/src/sass/task2.sass */
+#task2 ul {
+  font-size: 30px;
+  text-align: start;
+}
+
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/LEngineer-Regular.otf);
+}
+
+/* line 3, ../../Projects/react_training/my-app/src/sass/task3.sass */
+#task3 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #a6bbe1ad;
+  color: #006d77;
+  font-family: "main";
+}
+
+/* line 8, ../../Projects/react_training/my-app/src/sass/task3.sass */
+#task3 #likeCounter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  border: 2px #840303;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 5px solid #2e4878;
+  border-radius: 10px;
+}
+
+/* line 20, ../../Projects/react_training/my-app/src/sass/task3.sass */
+#task3 #likeCounter .card {
+  position: relative;
+  border: 1px solid #bbb;
+  height: 30px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  width: 200px;
+  align-self: flex-start;
+}
+
+/* line 29, ../../Projects/react_training/my-app/src/sass/task3.sass */
+#task3 #likeCounter .card img {
+  border-radius: 15px;
+}
+
+/* line 31, ../../Projects/react_training/my-app/src/sass/task3.sass */
+#task3 #likeCounter .card .card-data {
+  text-align: start;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+
+/* line 36, ../../Projects/react_training/my-app/src/sass/task3.sass */
+#task3 #likeCounter .card .card-data .name {
+  font-size: 14px;
+  color: #333;
+}
+
+/* line 39, ../../Projects/react_training/my-app/src/sass/task3.sass */
+#task3 #likeCounter .card .card-data .email {
+  font-size: 12px;
+  color: #888;
+}
+
+/* line 42, ../../Projects/react_training/my-app/src/sass/task3.sass */
+#task3 #likeCounter .like {
+  display: flex;
+  align-items: flex-end;
+  font-size: 30px;
+  border: none;
+  background-color: #84030300;
+  align-self: flex-start;
+  color: #840303;
+}
+
+/* line 50, ../../Projects/react_training/my-app/src/sass/task3.sass */
+#task3 #likeCounter .photo {
+  height: 300px;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/LEngineer-Regular.otf);
+}
+
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/LEngineer-Regular.otf);
+}
+
+/* line 3, ../../Projects/react_training/my-app/src/sass/route.sass */
+#routing {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'main';
+  font-size: 48px;
+  color: #4e5a37;
+  background-color: #b8ca94;
+}
+
+/* line 9, ../../Projects/react_training/my-app/src/sass/route.sass */
+#routing ul {
+  border: 1px solid #5a462a;
+  border-radius: 15px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 18, ../../Projects/react_training/my-app/src/sass/route.sass */
+#routing ul li {
+  list-style: none;
+}
+
+/* line 20, ../../Projects/react_training/my-app/src/sass/route.sass */
+#routing ul li a {
+  text-decoration: none;
+  color: #4e5a37;
+}
+
+/* line 23, ../../Projects/react_training/my-app/src/sass/route.sass */
+#routing ul li a:hover {
+  color: #5a1818;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/LEngineer-Regular.otf);
+}
+
+/* line 3, ../../Projects/react_training/my-app/src/sass/historyAPI.sass */
+#historyAPI {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'main';
+  font-size: 48px;
+  color: #4e5a37;
+  background-color: #b3a3c4;
+}
+
+/* line 9, ../../Projects/react_training/my-app/src/sass/historyAPI.sass */
+#historyAPI ul {
+  border: 1px solid #5a462a;
+  border-radius: 15px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 18, ../../Projects/react_training/my-app/src/sass/historyAPI.sass */
+#historyAPI ul li {
+  list-style: none;
+}
+
+/* line 20, ../../Projects/react_training/my-app/src/sass/historyAPI.sass */
+#historyAPI ul li a {
+  text-decoration: none;
+  color: #4e5a37;
+}
+
+/* line 23, ../../Projects/react_training/my-app/src/sass/historyAPI.sass */
+#historyAPI ul li a:hover {
+  color: #5a1818;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/LEngineer-Regular.otf);
+}
+
+/* line 3, ../../Projects/react_training/my-app/src/sass/ReactRouterRoute.sass */
+#react_router {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'main';
+  font-size: 48px;
+  color: #4e5a37;
+  background-color: #8ebab0;
+}
+
+/* line 9, ../../Projects/react_training/my-app/src/sass/ReactRouterRoute.sass */
+#react_router ul {
+  border: 1px solid #5a462a;
+  border-radius: 15px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 18, ../../Projects/react_training/my-app/src/sass/ReactRouterRoute.sass */
+#react_router ul li {
+  list-style: none;
+}
+
+/* line 20, ../../Projects/react_training/my-app/src/sass/ReactRouterRoute.sass */
+#react_router ul li a {
+  text-decoration: none;
+  color: #4e5a37;
+}
+
+/* line 23, ../../Projects/react_training/my-app/src/sass/ReactRouterRoute.sass */
+#react_router ul li a:hover {
+  color: #5a1818;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/LEngineer-Regular.otf);
+}
+
+/* line 3, ../../Projects/react_training/my-app/src/sass/routing_p2.sass */
+#routing_p2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'main';
+  font-size: 48px;
+  color: #4e5a37;
+  background-color: #c0ada1;
+}
+
+/* line 9, ../../Projects/react_training/my-app/src/sass/routing_p2.sass */
+#routing_p2 ul {
+  border: 1px solid #5a462a;
+  border-radius: 15px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 18, ../../Projects/react_training/my-app/src/sass/routing_p2.sass */
+#routing_p2 ul li {
+  list-style: none;
+  color: #4e5a37;
+  font-size: 30px;
+}
+
+/* line 22, ../../Projects/react_training/my-app/src/sass/routing_p2.sass */
+#routing_p2 ul li a {
+  color: #4e5a37;
+  text-decoration: none;
+}
+
+/* line 25, ../../Projects/react_training/my-app/src/sass/routing_p2.sass */
+#routing_p2 ul li a:hover {
+  color: #5a1818;
+  text-decoration: underline;
+}
+
+/* line 28, ../../Projects/react_training/my-app/src/sass/routing_p2.sass */
+.location {
+  font-size: 16px;
+  height: 50px;
+  width: 200px;
+  border: 1px solid #4e5a37;
+  border-radius: 10px;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 11, ../../Projects/react_training/my-app/src/sass/styles.sass */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=styles.css.map */

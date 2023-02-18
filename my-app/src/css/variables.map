@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../sass/variables.sass"
+	],
+	"sourcesContent": [
+		"@font-face {\n    font-family: 'main';\n    src: url(../fonts/LEngineer-Regular.otf); }\n\n$font: 'main';\n\n\n@mixin center {\n    height: 100vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    text-align: center; }\n"
+	],
+	"names": [],
+	"mappings": "AAAA,UAAU;EACN,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,mCAAmC"
+}

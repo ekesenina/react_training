@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "route.css",
+	"sources": [
+		"../sass/route.sass",
+		"../sass/variables.sass"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\n\n#routing {\n    @include center;\n    font-family: 'main';\n    font-size: 48px;\n    color: #4e5a37;\n    background-color: #b8ca94;\n    ul {\n        border: 1px solid #5a462a;\n        border-radius: 15px;\n        height: 300px;\n        width: 300px;\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        li {\n            list-style: none;\n            a {\n                text-decoration: none;\n                color: #4e5a37;\n                &:hover {\n                    color: #5a1818;\n                    text-decoration: underline; } } } } }\n",
+		"@font-face {\n    font-family: 'main';\n    src: url(../fonts/LEngineer-Regular.otf); }\n\n$font: 'main';\n\n\n@mixin center {\n    height: 100vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    text-align: center; }\n"
+	],
+	"names": [],
+	"mappings": "ACAA,UAAU;EACN,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,mCAAmC;;;;ADA5C,AAAA,QAAQ,CAAC;ECML,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EDRlB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,gBAAgB,EAAE,OAAO;CAiB4B;;;AAtBzD,AAMI,QANI,CAMJ,EAAE,CAAC;EACC,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAQ4B;;;AAtBvD,AAeQ,QAfA,CAMJ,EAAE,CASE,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CAMyB;;;AAtBrD,AAiBY,QAjBJ,CAMJ,EAAE,CASE,EAAE,CAEE,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,OAAO;CAGqB;;;AAtBnD,AAoBgB,QApBR,CAMJ,EAAE,CASE,EAAE,CAEE,CAAC,AAGI,MAAM,CAAC;EACJ,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,SAAS;CAAG"
+}

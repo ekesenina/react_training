@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/LEngineer-Regular.otf);
+}
+
+/* line 4, ../../Projects/react_training/my-app/src/sass/task2.sass */
+#task2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #a3b18a;
+  color: #6c584c;
+  font-family: "main";
+}
+
+/* line 9, ../../Projects/react_training/my-app/src/sass/task2.sass */
+#task2 h2 {
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+/* line 12, ../../Projects/react_training/my-app/src/sass/task2.sass */
+#task2 ul {
+  font-size: 30px;
+  text-align: start;
+}
+
+/*# sourceMappingURL=task2.css.map */

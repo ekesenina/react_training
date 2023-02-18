@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/LEngineer-Regular.otf);
+}
+
+/* line 3, ../../Projects/react_training/my-app/src/sass/ReactRouterRoute.sass */
+#react_router {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'main';
+  font-size: 48px;
+  color: #4e5a37;
+  background-color: #8ebab0;
+}
+
+/* line 9, ../../Projects/react_training/my-app/src/sass/ReactRouterRoute.sass */
+#react_router ul {
+  border: 1px solid #5a462a;
+  border-radius: 15px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 18, ../../Projects/react_training/my-app/src/sass/ReactRouterRoute.sass */
+#react_router ul li {
+  list-style: none;
+}
+
+/* line 20, ../../Projects/react_training/my-app/src/sass/ReactRouterRoute.sass */
+#react_router ul li a {
+  text-decoration: none;
+  color: #4e5a37;
+}
+
+/* line 23, ../../Projects/react_training/my-app/src/sass/ReactRouterRoute.sass */
+#react_router ul li a:hover {
+  color: #5a1818;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=ReactRouterRoute.css.map */
